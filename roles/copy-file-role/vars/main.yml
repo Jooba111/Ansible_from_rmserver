@@ -1,0 +1,15 @@
+---
+
+file_names:
+  - bar
+  - baz
+  - foo
+
+index_names:
+  - 1
+  - 2
+
+
+
+
+# vars file for copy-file-role

@@ -1,0 +1,11 @@
+---
+# tasks file for install_base_packages
+
+- name: install base packages "{{ base_packages }}"
+  apt:
+    name: "{{ item }}"
+  with_items: "{{ base_packages }}"
+
+
+
+

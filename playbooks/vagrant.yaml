@@ -1,0 +1,6 @@
+- name: Trying to change the timezone
+  hosts: remoteservers
+  tasks:
+    - name: Set timezone to Europe/Spain
+      community.general.timezone:
+        name: Europe/Madrid   

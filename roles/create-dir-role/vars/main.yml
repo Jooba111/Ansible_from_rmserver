@@ -1,0 +1,8 @@
+---
+
+academy_names:
+  - bar
+  - baz
+  - foo
+    
+# vars file for create-dir-role

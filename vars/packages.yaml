@@ -1,0 +1,9 @@
+base_packages:
+  - vim
+  - telnet
+  - htop
+  - iotop
+  - atop
+  - mc
+  - traceroute
+  - unzip

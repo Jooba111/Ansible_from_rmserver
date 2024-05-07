@@ -1,0 +1,19 @@
+---
+# vars file for install_base_packages
+
+
+base_packages:
+  - vim
+  - telnet
+  - htop
+  - iotop
+  - atop
+  - mc
+  - traceroute
+  - unzip
+  - tree
+
+
+
+
+

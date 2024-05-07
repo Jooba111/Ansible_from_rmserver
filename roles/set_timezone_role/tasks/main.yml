@@ -1,0 +1,12 @@
+---
+# tasks file for set_timezone_role
+
+- name: Set timezone to Europe/Spain
+  community.general.timezone:
+    name: Europe/Madrid
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+- name: Main playbook
+  hosts: remoteservers
+  roles:
+    - roles/changehostname_role
+    - roles/base_role
+    - roles/install_base_packages
+    - roles/set_timezone_role
+    - roles/create-dir-role
+    - roles/copy-file-role

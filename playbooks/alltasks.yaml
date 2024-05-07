@@ -1,0 +1,14 @@
+- name: This is a main playbook
+  hosts: remoteservers
+  vars_files:
+    - /root/ansible/vars/packages.yaml
+
+  tasks:
+    - name: Set timezone to Europe/Spain
+      community.general.timezone:
+        name: Europe/Madrid
+
+    - name: install base packages     
+      apt:
+        name: "{{ item }}"
+      with_items: "{{ base_packages }}"   

@@ -1,0 +1,9 @@
+- name: Trying something cool
+  hosts: remoteservers
+
+  tasks:
+    - name: Replace old hostname with a brand new hostname
+      ansible.builtin.replace:
+        path: /etc/hosts
+        regexp: 'node2'
+        replace: 'JUBIKOREMOTESERVER'
